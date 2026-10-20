@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Conoce más sobre el proyecto SIGE: su propósito, beneficios y cómo contribuye a nuestra institución educativa.">
+  <title>Información | SIGE</title>
+
+  <!-- Fuentes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#contenido-principal">Saltar al contenido principal</a>
+
+  <!-- ── Header ──────────────────────────────────── -->
+  <header class="site-header">
+    <div class="container header-inner">
+
+      <a href="index.html" class="brand" aria-label="Ir al inicio de SIGE">
+        <img src="img/logo.png" alt="Logo SIGE" class="brand-logo">
+        <div class="brand-text">
+          <span class="brand-title">SIGE</span>
+          <span class="brand-subtitle">Sistema de Información Geográfica Escolar</span>
+        </div>
+      </a>
+
+      <button class="nav-toggle" aria-label="Abrir menú de navegación" aria-expanded="false" aria-controls="main-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav id="main-nav" class="main-nav" aria-label="Navegación principal">
+        <a href="index.html"   class="nav-link">Inicio</a>
+        <a href="info.html"    class="nav-link active">Información</a>
+        <a href="contact.html" class="nav-link">Contacto</a>
+      </nav>
+
+    </div>
+  </header>
+
+  <!-- ── Contenido principal ─────────────────────── -->
+  <main id="contenido-principal">
+
+    <section class="hero info-hero">
+      <div class="hero-mask"></div>
+      <div class="container hero-content">
+        <div class="hero-copy">
+          <span class="eyebrow"><i class="fa-solid fa-circle-info" aria-hidden="true"></i> Información</span>
+          <h1>Conoce más sobre el proyecto SIGE: su propósito, beneficios y cómo contribuye a nuestra institución.</h1>
+          <p>Descubre cómo SIGE mejora la orientación, el acceso a la información y la gestión de los espacios escolares.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section info-section" aria-labelledby="info-titulo">
+      <div class="container section-grid">
+
+        <!-- Texto -->
+        <div class="section-text">
+          <p class="section-label animate-fade-up">Información</p>
+          <h2 id="info-titulo" class="animate-fade-up delay-1">
+            Conoce más sobre el proyecto SIGE: su propósito, beneficios y cómo contribuye a nuestra institución.
+          </h2>
+
+          <div class="info-card animate-on-scroll">
+            <h3>¿Qué es SIGE?</h3>
+            <p>SIGE es un Sistema de Información Geográfica Escolar que permite visualizar y conocer la ubicación de los espacios, aulas, laboratorios y zonas importantes de nuestra institución de manera rápida, sencilla e interactiva.</p>
+          </div>
+
+          <div class="info-card animate-on-scroll delay-1">
+            <h3>¿Para qué lo hicimos?</h3>
+            <p>Facilitar a estudiantes, docentes y visitantes encontrar los espacios que necesitan dentro del colegio, mejorando la experiencia y el acceso a la información.</p>
+          </div>
+        </div>
+
+        <!-- Imagen -->
+        <div class="section-visual animate-on-scroll" aria-label="Ilustración de mapa interactivo">
+          <img src="img/lugar.png" alt="Ilustración del mapa interactivo de la institución" class="main-image">
+          <img src="img/informacion.png" alt="Ilustración adicional" class="side-image" aria-hidden="true">
+        </div>
+
+      </div>
+
+      <!-- Tiles de beneficios -->
+      <div class="container features-list" aria-label="Beneficios de SIGE">
+
+        <article class="feature-tile animate-on-scroll">
+          <strong>Mejorar la orientación</strong>
+          <p>Facilita a estudiantes, docentes y visitantes encontrar los espacios que necesitan.</p>
+        </article>
+
+        <article class="feature-tile animate-on-scroll delay-1">
+          <strong>Ahorra tiempo</strong>
+          <p>Reduce el tiempo perdido buscando aulas u oficinas dentro del colegio.</p>
+        </article>
+
+        <article class="feature-tile animate-on-scroll delay-2">
+          <strong>Acceso a la información</strong>
+          <p>Brinda información clara y actualizada sobre los espacios de la institución.</p>
+        </article>
+
+        <article class="feature-tile animate-on-scroll delay-3">
+          <strong>Apoyar la gestión</strong>
+          <p>Ayuda a la administración a organizar y gestionar mejor los espacios escolares.</p>
+        </article>
+
+      </div>
+
+      <div class="container system-features-grid">
+        <article class="card system-card animate-on-scroll">
+          <p class="section-label">Características del sistema</p>
+          <ul class="system-features-list">
+            <li>Mapa interactivo y fácil de usar</li>
+            <li>Información detallada de cada espacio</li>
+            <li>Disponible desde cualquier dispositivo</li>
+            <li>Actualizaciones constantes</li>
+            <li>Diseñado para toda la comunidad educativa</li>
+            <li>Sin necesidad de instalación</li>
+          </ul>
+        </article>
+      </div>
+
+    </section>
+
+  </main>
+
+  <!-- ── Footer ──────────────────────────────────── -->
+  <footer class="site-footer" aria-label="Pie de página">
+    <div class="container footer-grid">
+
+      <div class="footer-brand">
+        <img src="img/logo.png" alt="Logo SIGE" class="footer-logo">
+        <div>
+          <h3>SIGE</h3>
+          <p>Sistema de Información Geográfica Escolar</p>
+          <p class="footer-note">Conectando espacios, conectando personas.</p>
+        </div>
+      </div>
+
+      <div class="footer-contact">
+        <p><strong>Contacto</strong></p>
+        <p>sige@colegio.edu.co</p>
+        <p>(604) 123 4567</p>
+        <p>Calle 123 #45-67<br>Nuestra Ciudad</p>
+      </div>
+
+      <div class="footer-links">
+        <p><strong>Enlaces rápidos</strong></p>
+        <a href="index.html">Inicio</a>
+        <a href="info.html">Información</a>
+        <a href="contact.html">Contacto</a>
+      </div>
+
+      <div class="footer-social">
+        <p><strong>Síguenos</strong></p>
+        <div class="social-icons">
+          <a href="#" class="social-icon" aria-label="Facebook">
+            <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+          </a>
+          <a href="#" class="social-icon" aria-label="Instagram">
+            <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+          </a>
+          <a href="#" class="social-icon" aria-label="Twitter">
+            <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container footer-bottom">
+      <p>© <span class="footer-year">2024</span> SIGE — Sistema de Información Geográfica Escolar. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>
+
+
